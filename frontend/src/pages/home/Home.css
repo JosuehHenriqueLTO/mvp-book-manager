@@ -1,0 +1,59 @@
+#books-box {
+    max-width: 800px; /* Limita a largura do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+  
+#books-box #title {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #333; /* Cor do texto */
+}
+  
+#books-box  ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex; /* Usar flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-between; /* Espaça os itens igualmente */
+}
+  
+#books-box  li {
+    background-color: #fff; /* Cor de fundo branca para cada livro */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    margin: 10px; /* Espaçamento entre os livros */
+    flex: 1 1 calc(30% - 20px); /* Flexível, ocupa 30% da largura menos a margem */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    transition: box-shadow 0.3s; /* Transição suave para a sombra */
+}
+
+  
+#books-box  img {
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+  
+#books-box  button {
+    background-color: #e74c3c; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+  
+#books-box button:hover {
+    background-color: #c0392b; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+#loading {
+    text-align: center; /* Centraliza o título */
+
+}
+  
