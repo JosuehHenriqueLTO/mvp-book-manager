@@ -1,0 +1,34 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1e7242;
+    gap: 1rem;
+}
+
+#navbar h2 a {
+    display: flex;
+    align-items: center;
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar h2 a:hover {
+    transition: .3s;
+    color: #dedede;
+}
+
+#navbar span {
+    gap: 2rem;
+}
