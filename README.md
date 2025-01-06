@@ -3,7 +3,7 @@
 
 `⚠️ Estado: em aperfeiçoamento`
 
-`⚠️ Esse é meu primeiro README.md, provavelmente está bem incompleto e com informações erradas`
+`⚠️ Esse é meu primeiro README.md, provavelmente está faltando informações e instruções pouco acuradas`
 
 Uma aplicação cujo intuito é gerenciar seus livros lidos.
 
